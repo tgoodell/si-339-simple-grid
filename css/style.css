@@ -37,13 +37,14 @@ h1, h2 {
   width: 800px;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: 25% 25% 25%;
   grid-gap: 10px;
   background-color: #91f321;
   background-image: url("../images/background.jpg");
   border: 3px solid #000;
   border-radius: 1em;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 
